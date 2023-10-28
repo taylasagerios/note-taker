@@ -1,6 +1,7 @@
 node_modules
 package-lock.json
 .vscode
+<<<<<<< HEAD
 .DS_Store
 # jokesRouter.delete("/delete/:_id", deleteJoke);
 # export const deleteJoke = (req: Request, res: Response) => {
@@ -11,3 +12,6 @@ package-lock.json
 #         .catch((error) => {
 #             res.status(400).json({ ...error, message: error.message });
 #         });
+=======
+.DS_Store
+>>>>>>> refs/remotes/origin/main

@@ -26,6 +26,7 @@ notes.post('/', (req, res) => {
   }
 });
 
+<<<<<<< HEAD
 notes.delete('i.id', (req,res) => {
   const found = notes.findIndex( i => parseInt(req.params.id) === i.id ? i :'') 
   console.log(found)
@@ -40,4 +41,6 @@ notes.delete('i.id', (req,res) => {
 
 
 
+=======
+>>>>>>> refs/remotes/origin/main
 module.exports = notes;

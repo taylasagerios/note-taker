@@ -7,6 +7,7 @@
         "title": "YODA",
         "text": "i LOVE STARWARS",
         "note_id": "10e4"
+<<<<<<< HEAD
     },
     {
         "title": "Test New Note",
@@ -32,5 +33,7 @@
         "title": "new beginning",
         "text": "how to have orginization in the church",
         "note_id": "4007"
+=======
+>>>>>>> refs/remotes/origin/main
     }
 ]
