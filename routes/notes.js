@@ -26,7 +26,7 @@ notes.post('/', (req, res) => {
   }
 });
 
-notes.delete('/notes', (req,res) => {
+notes.delete('i.id', (req,res) => {
   const found = notes.findIndex( i => parseInt(req.params.id) === i.id ? i :'') 
   console.log(found)
   if (found >= 0){
